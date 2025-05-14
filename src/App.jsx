@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Home";
+// import Home from "./Home";
 import Renegade from "./Renegade";
 import "./App.css";
 
@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/renegade" element={<Renegade />} />
+        <Route path="/" element={<Renegade />} />
+        {/* <Route path="/renegade" element={<Renegade />} /> */}
       </Routes>
     </>
   );

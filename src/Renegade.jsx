@@ -40,7 +40,11 @@ const Renegade = () => {
     <div className="home-container">
       <div id="background-sun-and-logo">
         <div className="background-sun"></div>
-        <img className="logo" src="src\assets\renegade-banner.png" alt="Logo" />
+        <img
+          className="logo"
+          src="https://github.com/the1andonlycj/portfolioxrenegade/blob/master/src/assets/renegade-banner.png?raw=true"
+          alt="Logo"
+        />
         <h1>Know yourself. Learn accordingly.</h1>
       </div>
       <div className="column-container">

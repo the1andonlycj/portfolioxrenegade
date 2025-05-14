@@ -135,13 +135,13 @@ const Renegade = () => {
         </h2>
       </div>
 
-      <div>
+      {/* <div>
         <div style={textShadow} className="register-link text-center">
           <Link to={"/"} className="link">
             Back to Charlie's Portfolio
           </Link>
         </div>
-      </div>
+      </div> */}
 
       <div className="graph-container">
         <div className="graph"></div>
